@@ -1,0 +1,42 @@
+
+.App {
+  background-color: #282c34;
+  text-align:left;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  padding-top:20px;
+}
+
+.stockTable{
+  display: inline-block;
+  margin:auto;
+}
+
+td {
+  border: 4px solid goldenrod;
+  padding: 2vmin;
+}
+
+th {
+  border: 4px solid goldenrod;
+}
+
+.negativeRed{
+  color: red;
+}
+
+.positiveGreen{
+  color: green;
+}

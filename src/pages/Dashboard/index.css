@@ -1,0 +1,9 @@
+.linkStock {
+    text-decoration: none;
+    color: white;
+}
+
+.linkStock:hover {
+    text-decoration: none;
+    color: gold
+}
